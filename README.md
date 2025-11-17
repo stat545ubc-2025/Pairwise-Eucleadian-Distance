@@ -23,7 +23,7 @@ with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("Parsa2018/Pairwise-Eucleadian-Distance")
+devtools::install_github("stat545ubc-2025/Pairwise-Eucleadian-Distance")
 ```
 
 ## Example
