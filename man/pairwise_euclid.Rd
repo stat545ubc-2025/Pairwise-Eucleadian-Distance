@@ -27,6 +27,9 @@ Function calculates a matrix of pairwise Euclidean distances between two inputs.
 a numeric vector, treated as one dimensional points, or a numeric matrix or data frame
 with rows as points and columns as features or dimensions. The number of columns (dimensions) must MATCH!!
 }
+\details{
+Internally this function uses the identity: ||x - y||^2 = ||x||^2 + ||y||^2 - 2 x.y for efficiency.
+}
 \examples{
 # vectors as one dimensional points
 pairwise_euclid(c(0,1,3), c(2,5))

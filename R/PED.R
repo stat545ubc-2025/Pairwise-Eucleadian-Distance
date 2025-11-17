@@ -4,7 +4,8 @@
 #' Function calculates a matrix of pairwise Euclidean distances between two inputs. Each input can be
 #' a numeric vector, treated as one dimensional points, or a numeric matrix or data frame
 #' with rows as points and columns as features or dimensions. The number of columns (dimensions) must MATCH!!
-#'
+#' @details
+#' Internally this function uses the identity: ||x - y||^2 = ||x||^2 + ||y||^2 - 2 x.y for efficiency.
 #' @param x A numeric vector or a numeric matrix or a data frame. Rows are points.
 #'   If a vector is supplied it is treated as a column matrix of dimension 1.
 #'   Justification for naming: Named `x` to follow standard math notation
