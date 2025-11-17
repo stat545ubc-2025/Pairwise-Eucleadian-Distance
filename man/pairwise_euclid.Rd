@@ -23,9 +23,6 @@ Numeric matrix of size n by m, where n is the number of kept rows in \code{x}
 and m is the number of kept rows in \code{y}.
 }
 \description{
-Pairwise Euclidean distances between two sets of points in a euclidean space
-}
-\details{
 Function calculates a matrix of pairwise Euclidean distances between two inputs. Each input can be
 a numeric vector, treated as one dimensional points, or a numeric matrix or data frame
 with rows as points and columns as features or dimensions. The number of columns (dimensions) must MATCH!!

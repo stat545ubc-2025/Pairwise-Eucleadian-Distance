@@ -8,7 +8,7 @@
 This is a minimal working example of my first R Package for STAT545!
 <!-- badges: end -->
 
-The goal of PairwiseEucleadianDistance is to calculates a matrix of
+The goal of PairwiseEucleadianDistance is to calculate a matrix of
 pairwise Euclidean distances between two inputs. Each input can be a
 numeric vector, treated as one dimensional points, or a numeric matrix
 or data frame with rows as points and columns as features or dimensions.
