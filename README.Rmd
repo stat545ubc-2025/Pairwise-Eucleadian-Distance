@@ -27,7 +27,10 @@ The goal of PairwiseEucleadianDistance is to calculate a matrix of pairwise Eucl
 You can install the development version of PairwiseEucleadianDistance from [GitHub](https://github.com/stat545ubc-2025/Pairwise-Eucleadian-Distance) with:
 
 ``` r
-# install.packages("devtools")
+# Check if devtools is installed
+if (!requireNamespace("devtools", quietly = TRUE)) {
+  install.packages("devtools")
+}
 devtools::install_github("stat545ubc-2025/Pairwise-Eucleadian-Distance")
 ```
 

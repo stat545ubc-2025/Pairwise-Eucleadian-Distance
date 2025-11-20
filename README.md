@@ -22,7 +22,10 @@ from
 with:
 
 ``` r
-# install.packages("devtools")
+# Check if devtools is installed
+if (!requireNamespace("devtools", quietly = TRUE)) {
+  install.packages("devtools")
+}
 devtools::install_github("stat545ubc-2025/Pairwise-Eucleadian-Distance")
 ```
 
