@@ -1,6 +1,6 @@
 Package: PairwiseEucleadianDistance
 Title: Pairwise Euclidean distances between two sets of points in a euclidean space
-Version: 1.0.0
+Version: 1.1.0
 Authors@R: 
     person("Parsa", "Seyfourian", , "parsasey@student.ubc.ca", role = c("aut", "cre"))
 Description: calculates a matrix of pairwise Euclidean distances between two inputs. Each input can be a numeric vector, treated as one dimensional points, or a numeric matrix or data frame with rows as points and columns as features or dimensions.
